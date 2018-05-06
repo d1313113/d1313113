@@ -1,0 +1,96 @@
+{
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Verdana, Consolas", //Fira Code
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.formatOnType": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "extensions.autoUpdate": true,
+  "emmet.syntaxProfiles": {
+      "vue-html": "html",
+      "vue": "html",
+      // "javascript": "jsx",
+      "javascript": "html"
+  },
+  "emmet.includeLanguages": {
+      "vue-html": "html",
+      "vue": "html",
+      "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.colorTheme": "Monokai",
+  "terminal.external.windowsExec": "C:\\#Alan\\Software\\cmder\\Cmder.exe",
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "html",
+      "vue",
+      "vue-html",
+      {
+          "language": "vue",
+          "autoFix": true
+      }
+  ],
+  // 需要 npm install -g eslint-plugin-html
+  "eslint.options": {
+      "plugins": [
+          "html"
+      ],
+      "extensions": [
+          ".js",
+          ".vue"
+      ]
+  },
+  "files.associations": {
+      "*.vue": "vue",
+      "*.js": "javascript",
+      // "*.wpy": "vue"
+  },
+  "editor.cursorBlinking": "smooth",
+  "sync.gist": "0098ebc82c9c1ac3237c27c11ba0cca9",
+  "sync.lastUpload": "2018-04-09T02:45:03.282Z",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastDownload": "2017-09-23T11:59:03.285Z",
+  "sync.forceDownload": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "editor.renderIndentGuides": false,
+  "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true
+  },
+  "vetur.format.styleInitialIndent": true,
+  "vetur.format.scriptInitialIndent": true,
+  "eslint.autoFixOnSave": true,
+  "window.zoomLevel": 0,
+  "sync.askGistName": false,
+  "fileheader.Author": "Alan-Yih",
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.colorCustomizations": {},
+  // "materialTheme.cache.workbench.settings": {
+  //     "accentPrevious": "Purple",
+  //     "themeColours": "Default"
+  // },
+  "python.disablePromptForFeatures": [
+      "pylint"
+  ],
+  "python.linting.flake8Enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.color": "#fdd835",
+  "material-icon-theme.activeIconPack": "react",
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "element-helper.version": "2.3",
+  "editor.wordWrap": "on"
+}
